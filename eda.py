@@ -102,3 +102,44 @@ unpopular.drop('track_id', axis=1, inplace=True)
 unpopular
 
 
+# Popularity Ratings
+px.histogram(unpopular.popularity, title='Popularity Ratings')
+
+
+# Distribution of Explicit Songs Amongst Unpopular Tracks
+px.bar(unpopular.explicit.value_counts(), color=['Explicit', 'Non Explicit'], title='Distribution of Explicit Songs Amongst Unpopular Tracks')
+
+# category for tracks in unpopular songs
+category = unpopular.loc[:, 'danceability':'duration_ms'].columns
+for i in category:
+    px.histogram(unpopular[i], title='Distribution of ' +  str.upper(i) + ' for Tracks Amongst Unpopular Songs', height=600).show()
+
+
+# Grammys for each year
+ # made from https://www.popvortex.com/music/grammy-awards/song-of-the-year.php
+
+d= {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019], 
+    'song': ['Single Ladies (Put a Ring on It', 'Need You Now', 'Rolling in the Deep', 'We Are Young', 'Royals', 'Stay With Me', 'Thinking Out Loud', 'Hello', 'Thats What I Like', 'This Is America'], 
+    'artist': ['Beyonce', 'Lady Antebellum', 'Adele', 'Fun. Featuring Janelle Monae', 'Lorde', 'Sam Smith', 'Ed Sheeran', 'Adele', 'Bruno Mars', 'Childish Gambino']}
+grammys = pd.DataFrame(data=d)
+print('Grammy Winners')
+display(grammys)
+
+
+# super bowl performers
+# made from https://www.si.com/nfl/2019/02/03/super-bowl-halftime-performers-past-artists-all-time-list
+f= {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],  
+    'artist': ['The Who', 'The Black Eyed Peas, Usher, Slash', 'Madonna, LMFAO, Nicki Minaj, M.I.A, Cee Lo Green', 'Beyonce and Destinys Child', 'Bruno Mars and Red Hot Chili Peppers', 'Katy Perry, Lenny Kravitz, Missy Elliott', 'Coldplay, Beyonce, Bruno Mars, Mark Ronson', 'Lady Gaga', 'Justin Timberlake', 'Maroon 5 with Big Boi and Travis Scott']}
+super_bowl = pd.DataFrame(data=f)
+print('Super Bowl Performers')
+display(super_bowl)
+
+
+# AMA Winners
+# made from https://en.wikipedia.org/wiki/American_Music_Award_for_Artist_of_the_Year
+g= {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],  
+    'artist_of_the_year': ['Justin Bieber', 'Taylor Swift', 'Justin Bieber', 'Taylor Swift', 'One Direction', 'One Direction', 'Ariana Grande', 'Bruno Mars', 'Taylor Swift', 'Taylor Swift']}
+amas = pd.DataFrame(data=g)
+print('American Music Award Winners')
+display(amas)
+
