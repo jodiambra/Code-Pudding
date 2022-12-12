@@ -49,6 +49,8 @@ names=top_listener_artists.artist, hover_name=top_listener_artists.artist,
 title='Favorite 10 Artists of Top Listener', height=700)
 
 #------------------------------------#
+
+
 # Top 10 dataset
 url2 = 'https://raw.githubusercontent.com/dataPracticum/codepudding/main/spotify/top_by_year/top10s.csv'
 top10 = pd.read_csv(url2, encoding='latin-1')
@@ -59,5 +61,44 @@ top10 = top10.drop('Unnamed: 0', axis=1)
 # Artist Popularity Based on Year
 px.histogram(top10, y='pop', x='artist', color='year', title='Artist Popularity Based on Year')
 
+# most popular artist of n year
+year = top10.year.unique()
+for i in year:
+    yr = top10[top10.year.isin([i])]
+    px.histogram(yr, y='pop', x='artist', title='Most Popular Artists of ' + str(i), height=800).show()
+
+# top n artist of the decade
+number = [5, 10, 20, 50, 100]
+for n in number:
+    top_artist = top10.artist.value_counts().nlargest(n)
+    px.bar(top_artist, title='Top ' + str(n) +  ' Artists of the Decade', height=600).show()
+
+
+# top n genres of the decade
+number = [5, 10, 15, 20, 50]
+for n in number:
+    top_genre = top10.genre.value_counts().nlargest(n)
+    px.bar(top_genre, title='Top ' + str(n) +  ' Genres of the Decade', height=600).show()
+
+# Years with most popular songs
+top_year = top10.year.value_counts(sort=False)
+px.bar(top_year, title='Years With Most Popular Songs', height=600)
+
+# Top category, n of the decade
+category = top10.loc[:, 'bpm':'pop'].columns
+num = [5, 10, 15, 20]
+for i in category:
+    for n in num:
+        top_category = top10[i].value_counts().nlargest(n)
+        px.bar(top_category, title='Top ' + str(n) + ' '+  str(i) + ' of the Decade', height=600).show()
+
+
+#-----------------------------#
+
+# Unpopular dataset
+url3 = 'https://raw.githubusercontent.com/dataPracticum/codepudding/main/spotify/unpopular_songs.csv'
+unpopular = pd.read_csv(url3)
+unpopular.drop('track_id', axis=1, inplace=True)
+unpopular
 
 
