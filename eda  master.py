@@ -1,7 +1,7 @@
 
 import pandas as pd
 import plotly_express as px
-import plotly.graph_objects as go
+
 
 # first dataset
 url1 = 'https://media.githubusercontent.com/media/dataPracticum/codepudding/main/spotify/spotify_dataset.csv'
