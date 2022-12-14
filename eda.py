@@ -3,10 +3,11 @@ import pandas as pd
 import plotly_express as px
 import plotly.graph_objects as go
 
+
 # first dataset
 url1 = 'https://media.githubusercontent.com/media/dataPracticum/codepudding/main/spotify/spotify_dataset.csv'
 full = pd.read_csv(url1, on_bad_lines='skip', names=[
-                    'user_id', 'artist_name', 'track_name', 'playlist_name'])
+    'user_id', 'artist_name', 'track_name', 'playlist_name'])
 
 
 # artists of the decade
@@ -139,8 +140,8 @@ for i in category:
 
 d = {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
      'song': ['Single Ladies (Put a Ring on It', 'Need You Now', 'Rolling in the Deep', 'We Are Young', 'Royals',
-                'Stay With Me', 'Thinking Out Loud', 'Hello', 'Thats What I Like', 'This Is America'],
-     'artist': ['Beyonce', 'Lady Antebellum', 'Adele', 'Fun. Featuring Janelle Monae', 'Lorde', 'Sam Smith', 'Ed Sheeran', 
+              'Stay With Me', 'Thinking Out Loud', 'Hello', 'Thats What I Like', 'This Is America'],
+     'artist': ['Beyonce', 'Lady Antebellum', 'Adele', 'Fun. Featuring Janelle Monae', 'Lorde', 'Sam Smith', 'Ed Sheeran',
                 'Adele', 'Bruno Mars', 'Childish Gambino']}
 grammys = pd.DataFrame(data=d)
 print('Grammy Winners')
@@ -150,8 +151,8 @@ display(grammys)
 # super bowl performers
 # made from https://www.si.com/nfl/2019/02/03/super-bowl-halftime-performers-past-artists-all-time-list
 f = {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
-     'artist': ['The Who', 'The Black Eyed Peas, Usher, Slash', 'Madonna, LMFAO, Nicki Minaj, M.I.A, Cee Lo Green', 
-                'Beyonce and Destinys Child', 'Bruno Mars and Red Hot Chili Peppers', 'Katy Perry, Lenny Kravitz, Missy Elliott', 
+     'artist': ['The Who', 'The Black Eyed Peas, Usher, Slash', 'Madonna, LMFAO, Nicki Minaj, M.I.A, Cee Lo Green',
+                'Beyonce and Destinys Child', 'Bruno Mars and Red Hot Chili Peppers', 'Katy Perry, Lenny Kravitz, Missy Elliott',
                 'Coldplay, Beyonce, Bruno Mars, Mark Ronson', 'Lady Gaga', 'Justin Timberlake', 'Maroon 5 with Big Boi and Travis Scott']}
 super_bowl = pd.DataFrame(data=f)
 print('Super Bowl Performers')
@@ -161,17 +162,20 @@ display(super_bowl)
 # AMA Winners
 # made from https://en.wikipedia.org/wiki/American_Music_Award_for_Artist_of_the_Year
 g = {'year': [2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019],
-     'artist_of_the_year': ['Justin Bieber', 'Taylor Swift', 'Justin Bieber', 'Taylor Swift', 'One Direction', 'One Direction', 
+     'artist_of_the_year': ['Justin Bieber', 'Taylor Swift', 'Justin Bieber', 'Taylor Swift', 'One Direction', 'One Direction',
                             'Ariana Grande', 'Bruno Mars', 'Taylor Swift', 'Taylor Swift']}
 amas = pd.DataFrame(data=g)
 print('American Music Award Winners')
 display(amas)
 
 
-# artists by total number one singles 
+# Billboard
+URL = 'https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number-one_singles_of_the_2010s'
+
+# artists by total number one singles
 tables = pd.read_html(URL)
 table2 = tables[3]
-table2.columns=('artist', 'number_one_singles', 'singles')
+table2.columns = ('artist', 'number_one_singles', 'singles')
 
 pd.set_option('display.max_columns', 20)
 pd.set_option('display.width', 1000)
@@ -179,7 +183,8 @@ print('Artist by Total Number-One Singles')
 display(table2)
 
 # Chart of number one singles
-px.histogram(table2, x='artist', y='number_one_singles', title='Total Number-One Singles', height=800)
+px.histogram(table2, x='artist', y='number_one_singles',
+             title='Total Number-One Singles', height=800).show()
 
 
 # Artists by total cumulative weeks at number-one
@@ -191,7 +196,8 @@ pd.set_option('display.width', 1000)
 print('Total Cumulative Weeks at Number One')
 display(table3)
 
-px.histogram(table3, x='artist', y='weeks_at_number_one', title='Total Cumulative Weeks at Number One', height=800)
+px.histogram(table3, x='artist', y='weeks_at_number_one',
+             title='Total Cumulative Weeks at Number One', height=800).show()
 
 
 # Songs by total number of weeks at number one
@@ -204,4 +210,5 @@ pd.set_option('display.width', 1000)
 print('Songs by Total Number of Weeks at Number One')
 display(table4)
 
-px.histogram(table4, x='artists', y='weeks_at_number_one', title='Songs by Total Number of w=Weeks at Number One', height=800)
+px.histogram(table4, x='artists', y='weeks_at_number_one',
+             title='Songs by Total Number of w=Weeks at Number One', height=800).show()
