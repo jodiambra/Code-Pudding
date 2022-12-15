@@ -194,9 +194,7 @@ print('American Music Award Winners')
 display(amas)
 
 
-
-
-# Billboard 
+# Billboard
 URL = 'https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number-one_singles_of_the_2010s'
 
 
@@ -243,8 +241,3 @@ display(table4)
 # histogram of table 4
 px.histogram(table4, x='artists', y='weeks_at_number_one',
              title='Songs by Total Number of Weeks at Number One', height=800, template='plotly_dark', color_discrete_sequence=['green']).show()
-
-
-# histogram of table 4
-px.histogram(table4, x='artists', y='weeks_at_number_one',
-             title='Songs by Total Number of Weeks at Number One', height=800, template='plotly_dark', color_discrete_sequence=['green']).write_html('figures')
