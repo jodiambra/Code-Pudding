@@ -194,6 +194,9 @@ print('American Music Award Winners')
 display(amas)
 
 
+# Billboard
+URL = 'https://en.wikipedia.org/wiki/List_of_Billboard_Hot_100_number-one_singles_of_the_2010s'
+
 # artists by total number one singles
 tables = pd.read_html(URL)
 table2 = tables[3]
