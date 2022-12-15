@@ -1,8 +1,9 @@
 .main {
   background-color: #222222;
-  width: 1660px;
-  height: 935px;
+  max-width: 100vw;
+  max-height: 100vh;
   display: flex;
+  font-family: "Gotham-Thin", Courier, monospace;
 }
 
 .main__content {
@@ -18,6 +19,7 @@
   line-height: 1.2;
   padding: 27px 0 46px 39px;
   margin: 0;
+  font-family: "Gotham-Bold", Courier, monospace;
 }
 
 .main__image {
@@ -33,6 +35,7 @@
   line-height: 1.2;
   padding: 25px 0 18px 16px;
   margin: 0;
+  font-family: "Gotham-Medium", Courier, monospace;
 }
 
 .main__description {
@@ -43,4 +46,6 @@
   color: rgba(178, 178, 178, 1);
   padding: 0 0 0 16px;
   margin: 0;
+  font-family: "Gotham-Bold", Courier, monospace;
+  line-height: 28px;
 }
