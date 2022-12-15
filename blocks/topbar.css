@@ -1,5 +1,5 @@
 .topbar {
-  background-color: black;
-  /* width: 1663px; */
+  background-color: rgba(18, 18, 18, 1);
+  max-width: 1663px;
   height: 57px;
 }
