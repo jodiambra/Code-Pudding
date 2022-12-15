@@ -1,6 +1,46 @@
 .main {
   background-color: #222222;
-  max-width: 1660px;
-  height: 877px;
+  width: 1660px;
+  height: 935px;
   display: flex;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: column;
+  /* padding: 27px 0 0 39px; */
+}
+
+.main__title {
+  width: 459px;
+  height: 33px;
+  font-size: 30px;
+  line-height: 1.2;
+  padding: 27px 0 46px 39px;
+  margin: 0;
+}
+
+.main__image {
+  width: 204px;
+  height: 204px;
+  padding: 0 0 0 16px;
+}
+
+.main__subtitle {
+  width: 227px;
+  height: 16px;
+  font-size: 17px;
+  line-height: 1.2;
+  padding: 25px 0 18px 16px;
+  margin: 0;
+}
+
+.main__description {
+  width: 193px;
+  height: 51px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: rgba(178, 178, 178, 1);
+  padding: 0 0 0 16px;
+  margin: 0;
 }
