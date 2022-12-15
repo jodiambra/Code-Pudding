@@ -1,9 +1,8 @@
 .sidebar {
   background-color: black;
   width: 290px;
-  height: 100vh;
+  height: 935px;
 }
-
 .sidebar__title {
   font-family: "Gotham-Bold", Courier, monospace;
 }
