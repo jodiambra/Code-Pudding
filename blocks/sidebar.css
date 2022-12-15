@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: black;
+  width: 290px;
+  height: 935px;
+}
+
+.sidebar__title-top {
+  display: flex;
+  flex-direction: row;
+  padding-left: 32px;
+}
+
+.sidebar__home {
+  display: flex;
+  flex-direction: row;
+  padding-left: 32px;
+}
+
+.sidebar__homeimage {
+  padding-right: 20px;
+}
+
+.sidebar__chart {
+  display: flex;
+  flex-direction: row;
+  padding-left: 32px;
+}
+
+.sidebar__chartimage {
+  padding-right: 20px;
+}
