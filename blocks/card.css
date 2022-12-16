@@ -20,6 +20,14 @@
   display: flex;
 }
 
+.card__play {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  align-self: flex-end;
+  top: 350px;
+}
+
 .card__subtitle {
   font-size: 17px;
   line-height: 1.2;
