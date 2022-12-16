@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Spotify Songs</title>
     <link rel="stylesheet" href="./blocks/style.css" />
+    <script src="./vendor/chart.js"></script>
   </head>
   <body>
     <div class="page">
@@ -59,6 +60,15 @@
                   explore why the 10 year celebration of
                 </p>
               </div>
+            </div>
+
+            <div class="chart">
+              <h1 class="chart__title">Music of 2010</h1>
+              <canvas id="myChart"></canvas>
+
+              <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+              <script src="./scripts/chart2010.js"></script>
             </div>
           </div>
         </div>

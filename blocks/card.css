@@ -48,3 +48,8 @@
   font-family: "Gotham-Bold", Courier, monospace;
   line-height: 28px;
 }
+
+.card__link {
+  color: #fff;
+  text-decoration: none;
+}
