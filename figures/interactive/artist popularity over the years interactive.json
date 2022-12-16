@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "hovertemplate": "year=2010<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+      "hovertemplate": "year=2010<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
       "legendgroup": "",
       "marker": {
         "color": "green",
@@ -1010,7 +1010,7 @@
         1.0
       ],
       "title": {
-        "text": "artist"
+        "text": "Artists"
       }
     },
     "yaxis": {
@@ -1020,7 +1020,7 @@
         1.0
       ],
       "title": {
-        "text": "pop"
+        "text": "Popularity"
       },
       "range": [
         0,
@@ -1326,7 +1326,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2010<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2010<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -1507,7 +1507,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2011<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2011<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -1694,7 +1694,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2012<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2012<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -1827,7 +1827,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2013<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2013<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -2068,7 +2068,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2014<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2014<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -2270,7 +2270,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2015<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2015<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -2583,7 +2583,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2016<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2016<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -2851,7 +2851,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2017<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2017<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -3074,7 +3074,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2018<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2018<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
@@ -3294,7 +3294,7 @@
     {
       "data": [
         {
-          "hovertemplate": "year=2019<br>artist=%{x}<br>pop=%{y}<br>nrgy=%{marker.size}<extra></extra>",
+          "hovertemplate": "year=2019<br>Artists=%{x}<br>Popularity=%{y}<br>nrgy=%{marker.size}<extra></extra>",
           "legendgroup": "",
           "marker": {
             "color": "green",
