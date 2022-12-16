@@ -1,7 +1,7 @@
 .main {
   background-color: #222222;
-  width: 1660px;
-  height: 935px;
+  width: 100vw;
+  height: 100vh;
   display: flex;
   font-family: "Gotham-Thin", Courier, monospace;
 }
@@ -49,12 +49,4 @@
   margin: 0;
   font-family: "Gotham-Bold", Courier, monospace;
   line-height: 28px;
-}
-
-.main__container {
-  display: flex;
-}
-.main__info {
-  display: flex;
-  flex-direction: column;
 }
