@@ -1,7 +1,10 @@
 .sidebar {
   background-color: black;
-  flex: 0 0 290px;
+  width: 290px;
   height: 935px;
+}
+.sidebar__title {
+  font-family: "Gotham-Bold", Courier, monospace;
 }
 
 .sidebar__title-top {
@@ -10,6 +13,10 @@
   padding-left: 32px;
 }
 
+.sidebar__option {
+  font-family: "Gotham-Thin", Courier, monospace;
+  font-size: 30px;
+}
 .sidebar__home {
   display: flex;
   flex-direction: row;
