@@ -1,0 +1,11 @@
+.topbar {
+  background-color: rgba(18, 18, 18, 1);
+  max-width: 1663px;
+  height: 57px;
+}
+
+.topbar__buttons {
+  padding: 12px 0 6px 39px;
+  display: flex;
+  gap: 18px;
+}
