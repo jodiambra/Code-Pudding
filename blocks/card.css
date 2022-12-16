@@ -7,12 +7,13 @@
   align-items: center;
   max-width: 227px;
   margin-left: 58px;
-  padding-top: 17px;
   transition: 0.5s ease-in-out;
+  padding-top: 17px;
 }
 
 .card:hover {
   background-color: #494949;
+  align-items: center;
 }
 
 .card__image {
@@ -26,26 +27,24 @@
   width: 75px;
   height: 75px;
   align-self: flex-end;
-  top: 350px;
+  top: 337px;
 }
 
 .card__subtitle {
   font-size: 17px;
   line-height: 1.2;
   align-self: flex-start;
-  padding-left: 17px;
+  padding-left: 11px;
   padding-top: 25px;
   margin: 0;
   font-family: "Gotham-Medium", Courier, monospace;
 }
 
 .card__description {
-  width: 193px;
+  width: 205px;
   height: 51px;
   font-size: 17px;
-  line-height: 1.2;
   color: rgba(178, 178, 178, 1);
-
   font-family: "Gotham-Bold", Courier, monospace;
   line-height: 28px;
 }

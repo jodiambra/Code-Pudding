@@ -13,11 +13,6 @@
   margin-left: 37px;
   margin-top: 32px;
 }
-.main__info {
-  display: flex;
-  flex-direction: column;
-  margin-left: 28px;
-}
 
 .playlist__title {
   font-family: "Gotham-Bold", Courier, monospace;

@@ -16,11 +16,15 @@
 .main__title {
   width: 459px;
   height: 33px;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.2;
   padding: 27px 0 46px 39px;
   margin: 0;
   font-family: "Gotham-Bold", Courier, monospace;
 }
 
-
+.main__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
