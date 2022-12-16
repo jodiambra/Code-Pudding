@@ -50,3 +50,11 @@
   font-family: "Gotham-Bold", Courier, monospace;
   line-height: 28px;
 }
+
+.main__container {
+  display: flex;
+}
+.main__info {
+  display: flex;
+  flex-direction: column;
+}
