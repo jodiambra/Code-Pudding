@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "GothamMedium";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url("../puddingFont/GothamMedium_1.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "GothamBold";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 900;
+  src: url("../puddingFont/GothamBold.ttf") format("ttf");
+}
