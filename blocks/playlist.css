@@ -1,0 +1,42 @@
+.playlist {
+  background: rgb(78, 163, 189);
+  background: linear-gradient(
+    180deg,
+    rgba(78, 163, 189, 1) 23%,
+    rgba(34, 34, 34, 1) 73%
+  );
+}
+
+.playlist__header {
+  display: flex;
+  font-family: "Gotham-Medium", Courier, monospace;
+  margin-left: 37px;
+  margin-top: 32px;
+}
+.main__info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 28px;
+}
+
+.playlist__title {
+  font-family: "Gotham-Bold", Courier, monospace;
+  font-size: 120px;
+  margin: 0;
+  line-height: 1.23;
+}
+
+.playlist__analysis {
+  font-size: 17px;
+  margin: 0;
+  line-height: 1.23;
+}
+
+.playlist__description {
+  line-height: 1.23;
+  color: #b2b2b2;
+}
+.playlist__image {
+  width: 275px;
+  height: 276px;
+}

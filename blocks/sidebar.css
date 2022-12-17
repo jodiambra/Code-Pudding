@@ -1,16 +1,36 @@
 .sidebar {
   background-color: black;
-  width: 290px;
-  height: 935px;
+  flex: 0 0 290px;
+  height: 100vh;
 }
 .sidebar__title {
   font-family: "Gotham-Bold", Courier, monospace;
 }
 
+.sidebar__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sidebar__link:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sidebar__logoimage {
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 6px;
+}
 .sidebar__title-top {
   display: flex;
   flex-direction: row;
   padding-left: 32px;
+  align-items: center;
+  margin-bottom: 42px;
 }
 
 .sidebar__option {

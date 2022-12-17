@@ -1,0 +1,42 @@
+.card {
+  border-style: solid;
+  border-color: #222222;
+  border-width: 1px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 227px;
+  margin-left: 58px;
+  padding-top: 17px;
+}
+
+.card:hover {
+  background-color: #494949;
+}
+
+.card__image {
+  width: 204px;
+  height: 204px;
+  display: flex;
+}
+
+.card__subtitle {
+  font-size: 17px;
+  line-height: 1.2;
+  align-self: flex-start;
+  padding-left: 17px;
+  padding-top: 25px;
+  margin: 0;
+  font-family: "Gotham-Medium", Courier, monospace;
+}
+
+.card__description {
+  width: 193px;
+  height: 51px;
+  font-size: 17px;
+  line-height: 1.2;
+  color: rgba(178, 178, 178, 1);
+
+  font-family: "Gotham-Bold", Courier, monospace;
+  line-height: 28px;
+}
