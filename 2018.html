@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Songs</title>
+    <link rel="stylesheet" href="./blocks/style.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="main">
+        <section class="sidebar">
+          <div class="sidebar__title-top">
+            <img
+              src="./images/nooby 1.svg"
+              alt="logo"
+              class="sidebar__logoimage"
+            />
+            <h1 class="sidebar__title">NoobTroop</h1>
+          </div>
+          <a class="sidebar__link" href="http://127.0.0.1:5500/songs.html">
+            <div class="sidebar__home">
+              <img
+                src="./images/House.svg"
+                alt="house"
+                class="sidebar__homeimage"
+              />
+              <p>Home</p>
+            </div>
+          </a>
+          <!-- <a class="sidebar__link" href="http://127.0.0.1:5500/playlist.html"> -->
+          <div class="sidebar__chart">
+            <img
+              src="./images/Chart.svg"
+              alt="chart"
+              class="sidebar__chartimage"
+            />
+            <p>Your Charts</p>
+          </div>
+          <!-- </a> -->
+        </section>
+
+        <div class="main__content">
+          <section class="topbar">
+            <div class="topbar__buttons">
+              <img src="./images/back button.svg" alt="backbutton" />
+              <img src="./images/forward button.svg" alt="fowardbutton" />
+            </div>
+          </section>
+          <div class="playlist">
+            <div class="playlist__header">
+              <img
+                src="./images/2018.jpeg"
+                alt="2010"
+                class="playlist__image"
+              />
+              <div class="main__info">
+                <p class="playlist__analysis">Analysis</p>
+                <p class="playlist__title">2018 Music</p>
+                <p class="playlist__description">
+                  explore why the 10 year celebration of
+                </p>
+              </div>
+            </div>
+
+            <div class="chart">
+              <h1 class="chart__title">Music of 2018</h1>
+              <canvas id="myChart"></canvas>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script src="./scripts/chart2010.js"></script>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
