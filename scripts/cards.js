@@ -1,7 +1,7 @@
-const intialCards = [
+const initialCards = [
   {
     name: "2010 music",
-    link: "./images/2010 fun 1.png",
+    link: "https://code.s3.yandex.net/web-code/yosemite.jpg",
   },
   {
     name: "2011 music",
@@ -62,6 +62,6 @@ function getCards(card) {
 }
 
 initialCards.forEach((cardData) => {
-  const card = getCardElement(cardData);
+  const card = getCards(cardData);
   cardsList.append(card);
 });
