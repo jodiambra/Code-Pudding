@@ -9,39 +9,48 @@
   margin-left: 58px;
   transition: 0.5s ease-in-out;
   padding-top: 17px;
+  position: relative;
+}
+
+.card__list {
+  margin: 0 auto;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 259px);
+  grid-gap: 47px 0px;
+  width: 1300px;
 }
 
 .card:hover {
   background-color: #494949;
   align-items: center;
+  border-radius: 8px;
 }
 
 .card__image {
-  width: 204px;
-  height: 204px;
-  display: flex;
+  width: 185px;
+  height: 185px;
 }
 
 .card__play {
   position: absolute;
   width: 75px;
   height: 75px;
-  align-self: flex-end;
-  top: 337px;
+  bottom: 93px;
+  right: -2px;
 }
 
 .card__subtitle {
   font-size: 17px;
   line-height: 1.2;
   align-self: flex-start;
-  padding-left: 11px;
   padding-top: 25px;
   margin: 0;
   font-family: "Gotham-Medium", Courier, monospace;
 }
 
 .card__description {
-  width: 205px;
+  width: 195px;
   height: 51px;
   font-size: 17px;
   color: rgba(178, 178, 178, 1);

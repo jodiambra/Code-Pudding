@@ -34,4 +34,5 @@
 .playlist__image {
   width: 275px;
   height: 276px;
+  border-radius: 6px;
 }

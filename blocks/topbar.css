@@ -9,3 +9,9 @@
   display: flex;
   gap: 18px;
 }
+
+.topbar__button {
+  background: transparent;
+  border-radius: 50px;
+  /* border: none; */
+}
