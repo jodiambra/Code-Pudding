@@ -1,0 +1,65 @@
+{'top_10_of_2013': [
+    {
+        'date': 2013, 
+        'title': 'Underneath the Tree',
+        'artist': 'Kelly Clarkson',
+        'popularity': 88
+    },
+    {
+        'date': 2013, 
+        'title': 'Wake Me Up',
+        'artist': 'Avicii',
+        'popularity': 85
+    },
+    {
+        'date': 2013, 
+        'title': 'Story of My Life',
+        'artist': 'One Direction',
+        'popularity': 81
+
+    },
+    {
+        'date': 2013, 
+        'title': 'Just Give Me a Reason (feat. Nate Ruess)',
+        'artist': 'P!nk',
+        'popularity': 81
+
+    },
+    {
+        'date': 2013, 
+        'title': 'Hall of Fame',
+        'artist': 'The Script',
+        'popularity': 80
+    },
+    {
+        'date': 2013, 
+        'title': 'Roar',
+        'artist': 'Katy Perry',
+        'popularity': 78
+    },
+    {
+        'date': 2013, 
+        'title': 'We Can't Stop',
+        'artist': 'Miley Cyrus',
+        'popularity': 78
+    },
+    {
+        'date': 2013, 
+        'title': 'Don't You Worry Child - Radio Edit',
+        'artist': 'Swedish House Mafia',
+        'popularity': 78
+    },
+    {
+        'date': 2013, 
+        'title': 'Get Lucky (feat. Pharrell Williams & Nile Rodgers',
+        'artist': 'Daft Punk',
+        'popularity': 77
+    },
+    {
+        'date': 2013, 
+        'title': 'Wrecking Ball',
+        'artist': 'Miley Cyrus',
+        'popularity': 77
+    }
+    ]
+    }

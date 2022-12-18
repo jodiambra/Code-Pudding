@@ -1,0 +1,65 @@
+{'top_10_of_2014': [
+    {
+        'date': 2014, 
+        'title': 'All of Me',
+        'artist': 'John Legend',
+        'popularity': 86
+    },
+    {
+        'date': 2014, 
+        'title': 'Stay With Me',
+        'artist': 'Sam Smith',
+        'popularity': 85
+    },
+    {
+        'date': 2014, 
+        'title': 'Summer',
+        'artist': 'Calvin Harris',
+        'popularity': 80
+
+    },
+    {
+        'date': 2014, 
+        'title': 'Happy - From "Despicable Me 2"',
+        'artist': 'Pharrell Williams',
+        'popularity': 79
+
+    },
+    {
+        'date': 2014, 
+        'title': 'Rude',
+        'artist': 'MAGIC!',
+        'popularity': 79
+    },
+    {
+        'date': 2014, 
+        'title': 'Shake It Off',
+        'artist': 'Taylor Swift',
+        'popularity': 78
+    },
+    {
+        'date': 2014, 
+        'title': 'Dark Horse',
+        'artist': 'Katy Perry',
+        'popularity': 78
+    },
+    {
+        'date': 2014, 
+        'title': 'Hey Brother',
+        'artist': 'Avicii',
+        'popularity': 78
+    },
+    {
+        'date': 2014, 
+        'title': 'Maps',
+        'artist': 'Maroon 5',
+        'popularity': 78
+    },
+    {
+        'date': 2014, 
+        'title': 'Treasure',
+        'artist': 'Bruno Mars',
+        'popularity': 77
+    }
+    ]
+    }

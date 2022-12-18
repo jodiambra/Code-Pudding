@@ -1,0 +1,65 @@
+{'top_10_of_2019': [
+    {
+        'date': 2019, 
+        'title': 'Memories',
+        'artist': 'Maroon 5',
+        'popularity': 99
+    },
+    {
+        'date': 2019, 
+        'title': 'Lose You To Love Me',
+        'artist': 'Selena Gomez',
+        'popularity': 97
+    },
+    {
+        'date': 2019, 
+        'title': 'Someone You Loved',
+        'artist': 'Lewis Capaldi',
+        'popularity': 96
+
+    },
+    {
+        'date': 2019, 
+        'title': 'Señorita',
+        'artist': 'Shawn Mendes',
+        'popularity': 95
+
+    },
+    {
+        'date': 2019, 
+        'title': 'How Do You Sleep?',
+        'artist': 'Sam Smith',
+        'popularity': 93
+    },
+    {
+        'date': 2019, 
+        'title': 'South of the Border (feat. Camila Cabello & Cardi B)',
+        'artist': 'Ed Sheeran',
+        'popularity': 92
+    },
+    {
+        'date': 2019, 
+        'title': 'Trampoline (with ZAYN)',
+        'artist': 'SHAED',
+        'popularity': 92
+    },
+    {
+        'date': 2019, 
+        'title': 'Happier',
+        'artist': 'Marshmello',
+        'popularity': 90
+    },
+    {
+        'date': 2019, 
+        'title': 'Truth Hurts',
+        'artist': 'Lizzo',
+        'popularity': 90
+    },
+    {
+        'date': 2019, 
+        'title': 'Good as Hell (feat. Ariana Grande) - Remix',
+        'artist': 'Lizzo',
+        'popularity': 90
+    }
+    ]
+    }

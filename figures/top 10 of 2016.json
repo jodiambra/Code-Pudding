@@ -1,0 +1,65 @@
+{'top_10_of_2016': [
+    {
+        'date': 2016, 
+        'title': 'The Hills',
+        'artist': 'The Weeknd',
+        'popularity': 84
+    },
+    {
+        'date': 2016, 
+        'title': 'Love Yourself',
+        'artist': 'Justin Bieber',
+        'popularity': 83
+    },
+    {
+        'date': 2016, 
+        'title': 'Cake By The Ocean',
+        'artist': 'DNCE',
+        'popularity': 81
+
+    },
+    {
+        'date': 2016, 
+        'title': 'Don't Let Me Down',
+        'artist': 'The Chainsmokers',
+        'popularity': 81
+
+    },
+    {
+        'date': 2016, 
+        'title': 'In the Name of Love',
+        'artist': 'Martin Garrix',
+        'popularity': 81
+    },
+    {
+        'date': 2016, 
+        'title': 'Into You',
+        'artist': 'Ariana Grande',
+        'popularity': 80
+    },
+    {
+        'date': 2016, 
+        'title': 'This Is What You Came For',
+        'artist': 'Calvin Harris',
+        'popularity': 80
+    },
+    {
+        'date': 2016, 
+        'title': 'Million Reasons',
+        'artist': 'Lady Gaga',
+        'popularity': 80
+    },
+    {
+        'date': 2016, 
+        'title': 'Needed Me',
+        'artist': 'Rihanna',
+        'popularity': 80
+    },
+    {
+        'date': 2016, 
+        'title': '7 Years',
+        'artist': 'Lukas Graham',
+        'popularity': 80
+    }
+    ]
+    }

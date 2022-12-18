@@ -1,0 +1,65 @@
+{'top_10_of_2017': [
+    {
+        'date': 2017, 
+        'title': 'Shape of You',
+        'artist': 'Ed Sheeran',
+        'popularity': 87
+    },
+    {
+        'date': 2017, 
+        'title': 'Closer',
+        'artist': 'The Chainsmokers',
+        'popularity': 86
+    },
+    {
+        'date': 2017, 
+        'title': 'Starboy',
+        'artist': 'The Weeknd',
+        'popularity': 85
+
+    },
+    {
+        'date': 2017, 
+        'title': 'Treat You Better',
+        'artist': 'Shawn Mendes',
+        'popularity': 84
+
+    },
+    {
+        'date': 2017, 
+        'title': 'That's What I Like',
+        'artist': 'Bruno Mars',
+        'popularity': 83
+    },
+    {
+        'date': 2017, 
+        'title': 'Let Me Love You',
+        'artist': 'DJ Snake',
+        'popularity': 82
+    },
+    {
+        'date': 2017, 
+        'title': 'I Feel It Coming',
+        'artist': 'The Weeknd',
+        'popularity': 81
+    },
+    {
+        'date': 2017, 
+        'title': 'Mercy',
+        'artist': 'Shawn Mendes',
+        'popularity': 81
+    },
+    {
+        'date': 2017, 
+        'title': 'Side To Side',
+        'artist': 'Ariana Grande',
+        'popularity': 80
+    },
+    {
+        'date': 2017, 
+        'title': 'Stay',
+        'artist': 'Zedd',
+        'popularity': 80
+    }
+    ]
+    }
