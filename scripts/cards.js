@@ -49,7 +49,7 @@ const cardList = document.querySelector(".card__list");
 const cardTemplate =
   document.querySelector("#card-template").content.firstElementChild;
 
-function getCards(card) {
+function getCards(data) {
   const cardElement = cardTemplate.cloneNode(true);
   const cardImage = cardElement.querySelector(".card__image");
   const cardName = cardElement.querySelector(".card__subtitle");
@@ -63,5 +63,5 @@ function getCards(card) {
 
 initialCards.forEach((cardData) => {
   const card = getCards(cardData);
-  cardsList.append(card);
+  cardList.append(card);
 });
