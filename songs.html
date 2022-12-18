@@ -28,51 +28,63 @@
               <p>Home</p>
             </div>
           </a>
-          <a class="sidebar__link" href="http://127.0.0.1:5500/playlist.html">
-            <div class="sidebar__chart">
-              <img
-                src="./images/Chart.svg"
-                alt="chart"
-                class="sidebar__chartimage"
-              />
-              <p>Your Charts</p>
-            </div>
-          </a>
+          <!-- <a class="sidebar__link" href="http://127.0.0.1:5500/playlist.html"> -->
+          <div class="sidebar__chart">
+            <img
+              src="./images/Chart.svg"
+              alt="chart"
+              class="sidebar__chartimage"
+            />
+            <p>Your Charts</p>
+          </div>
+          <!-- </a> -->
         </section>
 
         <div class="main__content">
           <section class="topbar">
             <div class="topbar__container">
               <div class="topbar__buttons">
-                <button type="button" class="topbar__backbutton">
+                <button type="button" class="topbar__button">
                   <img src="./images/back button.svg" alt="backbutton" />
                 </button>
-
-                <img src="./images/forward button.svg" alt="fowardbutton" />
+                <button type="button" class="topbar__button">
+                  <img src="./images/forward button.svg" alt="fowardbutton" />
+                </button>
               </div>
             </div>
           </section>
           <p class="main__title">Explore history through music</p>
           <a class="card__link" href="http://127.0.0.1:5500/playlist.html">
-            <div class="card">
-              <img
-                src="./images/2010 fun 1.png"
-                alt="2010"
-                class="card__image"
-              />
-              <img
-                src="./images/play.png"
-                alt="playbutton"
-                class="card__play"
-              />
-              <p class="card__subtitle">2010 Music</p>
-              <p class="card__description">
-                explore why the 10 year celebration of
-              </p>
-            </div>
+            <!-- <ul class="card__list">
+              <li class="card">
+                <img
+                  src="./images/2010 fun 1.png"
+                  alt="2010"
+                  class="card__image"
+                />
+                <img
+                  src="./images/play.png"
+                  alt="playbutton"
+                  class="card__play"
+                />
+                <p class="card__subtitle">2010 Music</p>
+                <p class="card__description">
+                  explore why the 10 year celebration of
+                </p>
+              </li>
+            </ul> -->
           </a>
         </div>
       </section>
     </div>
+    <template id="card-template">
+      <li class="card">
+        <img src="#" alt="" class="card__image" />
+        <img src="./images/play.png" alt="playbutton" class="card__play" />
+        <p class="card__subtitle"></p>
+        <p class="card__description"></p>
+      </li>
+    </template>
+    <script src="./scripts/cards.js"></script>
   </body>
 </html>
