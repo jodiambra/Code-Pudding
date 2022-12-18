@@ -1,0 +1,65 @@
+{'top_10_of_2018': [
+    {
+        'date': 2018, 
+        'title': 'One Kiss (with Dua Lipa)',
+        'artist': 'Calvin Harris',
+        'popularity': 86
+    },
+    {
+        'date': 2018, 
+        'title': 'I Like It',
+        'artist': 'Cardi B',
+        'popularity': 85
+    },
+    {
+        'date': 2018, 
+        'title': 'Havana (feat. Young Thug)',
+        'artist': 'Camila Cabello',
+        'popularity': 85
+
+    },
+    {
+        'date': 2018, 
+        'title': 'New Rules',
+        'artist': 'Dua Lipa',
+        'popularity': 84
+
+    },
+    {
+        'date': 2018, 
+        'title': 'no tears left to cry',
+        'artist': 'Ariana Grande',
+        'popularity': 84
+    },
+    {
+        'date': 2018, 
+        'title': 'IDGAF',
+        'artist': 'Dua Lipa',
+        'popularity': 84
+    },
+    {
+        'date': 2018, 
+        'title': 'There's Nothing Holdin' Me Back',
+        'artist': 'Shawn Mendes',
+        'popularity': 84
+    },
+    {
+        'date': 2018, 
+        'title': 'In My Blood',
+        'artist': 'Shawn Mendes',
+        'popularity': 83
+    },
+    {
+        'date': 2018, 
+        'title': 'Wolves',
+        'artist': 'Selena Gomez',
+        'popularity': 83
+    },
+    {
+        'date': 2018, 
+        'title': 'Dusk Till Dawn - Radio Edit',
+        'artist': 'ZAYN',
+        'popularity': 83
+    }
+    ]
+    }
