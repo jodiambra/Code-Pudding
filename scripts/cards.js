@@ -84,9 +84,9 @@ console.log(cardsContainer);
 */
 class Card {
   constructor(data, selector) {
-    this.name = data.name;
-    this._image = data._image;
-    this._description = data._description;
+    this._name = data.name;
+    this._image = data.image;
+    this._description = data.description;
     this._link = data.link;
     this._selector = selector;
   }
@@ -101,7 +101,13 @@ class Card {
     this._element.querySelector(
       ".card__image"
     ).style.backgroundImage = `url(${this._image})`;
+
     this._element.querySelector(".card__subtitle").textContent = this._name;
+
+    this._element.querySelector(".card__description").textContent =
+      this._description;
+
+    this._element.querySelector(".card__link").href = this._link;
 
     return this._element;
   }
@@ -109,7 +115,7 @@ class Card {
 
 initialCards.forEach(function (cardElement) {
   const card = new Card(cardElement, cardSelector);
-  cardsContainer.prepend(card.getElement());
+  cardsContainer.append(card.getElement());
 });
 
 /*
