@@ -1,7 +1,28 @@
 .chart {
   max-width: 600px;
+  margin-top: 194px;
+  margin-left: 37px;
 }
 
 .chart__title {
   text-align: center;
+}
+
+.chart_headers {
+  display: flex;
+  flex-direction: row;
+}
+
+.chart__header {
+  font-size: 16px;
+  text-align: start;
+  width: 1000px;
+  color: #b2b2b2;
+  border-bottom: #b2b2b2;
+  border-width: 0px 0px 2px 0px;
+  border-style: solid;
+}
+.chart__header:last-child {
+  position: relative;
+  left: 320px;
 }
