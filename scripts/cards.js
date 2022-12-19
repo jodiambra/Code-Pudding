@@ -1,7 +1,7 @@
 const initialCards = [
   {
     name: "2010 music",
-    image: "https://code.s3.yandex.net/web-code/yosemite.jpg",
+    image: "images/2010.png",
     description: "i love 2010 yo!",
     link: "http://127.0.0.1:5500/playlist.html",
   },

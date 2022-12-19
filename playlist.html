@@ -50,11 +50,7 @@
           </section>
           <div class="playlist">
             <div class="playlist__header">
-              <img
-                src="./images/2010 fun 1.png"
-                alt="2010"
-                class="playlist__image"
-              />
+              <img src="images/2010.png" alt="2010" class="playlist__image" />
               <div class="main__info">
                 <p class="playlist__analysis">Analysis</p>
                 <p class="playlist__title">2010 Music</p>
@@ -65,13 +61,17 @@
             </div>
 
             <div class="chart">
+              <h1 class="chart__title">Music of 2010</h1>
               <div class="chart_headers">
                 <h2 class="chart__header">Graph</h2>
                 <h2 class="chart__header">Description</h2>
               </div>
-              <h1 class="chart__title">Music of 2010</h1>
-              <canvas id="myChart"></canvas>
+
+              <div class="chart__size">
+                <canvas id="myChart"></canvas>
+              </div>
             </div>
+            <div id="chartjs-tooltip"></div>
             <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
             <script src="./scripts/chart2010.js"></script>
